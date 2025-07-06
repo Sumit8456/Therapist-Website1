@@ -59,11 +59,11 @@ export default function ContactForm() {
         <input
           type="text"
           name="name"
-          value={form.name}
-          onChange={handleChange}
-          className="w-full mt-1 p-2 border border-green-800 rounded focus:outline-none focus:ring"
+          vaChange={handleChange}
+            className="w-full mt-1 p-2 border border-green-800 rounded focus:outline-none focus:ring text-green-900 placeholder:text-gray-400"
           placeholder="Your full name"
-        />
+        />lue={form.name}
+          on
         {errors.name && <p className="text-red-600 text-sm mt-1">{errors.name}</p>}
       </div>
 
@@ -75,7 +75,7 @@ export default function ContactForm() {
           name="email"
           value={form.email}
           onChange={handleChange}
-          className="w-full mt-1 p-2 border border-green-800 rounded focus:outline-none focus:ring"
+            className="w-full mt-1 p-2 border border-green-800 rounded focus:outline-none focus:ring text-green-900 placeholder:text-gray-400"
           placeholder="you@example.com"
         />
         {errors.email && <p className="text-red-600 text-sm mt-1">{errors.email}</p>}
@@ -89,7 +89,7 @@ export default function ContactForm() {
           name="phone"
           value={form.phone}
           onChange={handleChange}
-          className="w-full mt-1 p-2 border border-green-800 rounded focus:outline-none focus:ring"
+           className="w-full mt-1 p-2 border border-green-800 rounded focus:outline-none focus:ring text-green-900 placeholder:text-gray-400"
           placeholder="(555) 234-5678"
         />
         {errors.phone && <p className="text-red-600 text-sm mt-1">{errors.phone}</p>}
