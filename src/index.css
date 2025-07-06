@@ -1,0 +1,18 @@
+
+
+body{
+  background-color:#ffffff;
+  color: aliceblue;
+}
+h1{
+  font-size: 100px;
+  color: rgb(37, 36, 36);
+  
+}
+
+/* Override global h2 in .custom-section */
+.custom-section h2 {
+  font-size: 40px !important;
+  color: #000 !important;
+}
+@import "tailwindcss";
